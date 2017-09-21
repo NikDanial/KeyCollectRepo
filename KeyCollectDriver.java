@@ -1,5 +1,5 @@
 /**
- * driver class for the program 
+ * driver class for the whole program 
  * @author Nik
  * @param none
  * @return none
