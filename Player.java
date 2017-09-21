@@ -11,6 +11,7 @@ public class Player {
    int[] player_key_array = new int[6];
    
    /** default constructor for Player class
+    * @author Aneek
     * @param none
 	*/
    public Player(){
@@ -22,6 +23,7 @@ public class Player {
    }   
    
    /** Overloaded constructor for Player class
+    * @Author Aneek
     * @param pos the position of the Player in a Point object
 	* @param key the key held by the player
 	* @param noKeys the number of keys held by the player
@@ -35,20 +37,24 @@ public class Player {
    }
    
    /**
+    * @author Aneek
     * get method for player_key
     */
    public int getPlayerKey() { return player_key; }
    /**
+    * @author Aneek
     * set method for player_key
 	* @param key player key
     */
    public void setPlayerKey(int key) { this.player_key = key; }
    /**
+    * @author Aneek
     * get method for player_pos
 	*/
    public Point getPlayerPos() { return player_pos; }
    
    /**
+    * @author Aneek
     * set method for player_pos
 	* @param pos the position (Point object)
 	*/
@@ -56,6 +62,7 @@ public class Player {
 	    this.player_pos = pos;
    }
    /**
+    * @author Aneek
     * set method for player_key_array
 	* @param index the index in the array
 	* @param value the value to be replaced in the array at point index
@@ -65,6 +72,7 @@ public class Player {
    }
    
    /** 
+    * @author Aneek
     * get method for player_key_array
 	* @param index the index of the array to be retrieved 
 	*/
@@ -73,9 +81,10 @@ public class Player {
    }
    
    /**
-     * Copy Constructor for player
-	 * @param pos the position of the player
-	 */
+    * @author Aneek
+    * Copy Constructor for player
+	* @param pos the position of the player
+	*/
    public Player(Point pos){
 	   this.player_pos = pos;
 	   player_key = 0;
@@ -85,11 +94,14 @@ public class Player {
    }
    
    /**
+    * @author Aneek
     * get method for no_keys
 	*/
    public int getNoKeys() { return no_keys; }
    
-   /** set method for noKeys
+   /** 
+    * set method for noKeys
+	* @author Aneek
     * @param keys the no of new keys
 	*/
    public void setNoKeys(int keys) { this.no_keys = keys; }
