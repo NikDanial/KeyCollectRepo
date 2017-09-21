@@ -9,6 +9,7 @@ public class Keys {
 	int key_code;
 	
 	/** 
+	 * @author Arif
 	 * default constructor for Keys
 	 */
 	public Keys(){
@@ -17,6 +18,7 @@ public class Keys {
 	}
 	
 	/** 
+	 * @author Arif
 	 * overloaded constructor for Keys
 	 */
 	public Keys(Point pos, int code){
@@ -25,6 +27,7 @@ public class Keys {
 	}
 	
 	/**
+	 * @author Arif
 	 * overloaded constructor for Keys
 	 * @param pos the position of the key
 	 */
@@ -34,20 +37,24 @@ public class Keys {
 	}
 	
 	/**
+	 * @author Arif
 	 * get method for key_pos
 	 */
 	public Point getKeyPos() { return key_pos; }
 	/**
+	 * @author Arif
 	 * set method for key_pos
 	 * @param pos the new position of the key
 	 */
 	public void setKeyPos(Point pos) { this.key_pos = pos; }
 	
 	/**
+	 * @author Arif
 	 * get method for key_code
 	 */
 	public int getKeyCode() { return key_code; }
 	/**
+	 * @author Arif
 	 * set method for key_code
 	 * @param pos the new value of the key
 	 */
