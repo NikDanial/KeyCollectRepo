@@ -486,7 +486,7 @@ public class KeyCollect extends JFrame implements ActionListener {
 	 
 	}
 	/** defintion for yes button actionPerformed event
-	 * @author nik
+	 * @author Nik
 	 * @param evt event of yes button clicked
 	 */
 	private void yesActionPerformed(ActionEvent evt) {                                           
@@ -496,7 +496,7 @@ public class KeyCollect extends JFrame implements ActionListener {
         
     }      
 	/** defintion for no button actionPerformed event
-	 * @author nik
+	 * @author Nik
 	 * @param evt event of no button clicked
 	 */
 	private void noActionPerformed(ActionEvent evt) {                                           
